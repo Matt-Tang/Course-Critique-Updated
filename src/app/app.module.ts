@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { BiographyComponent } from './biography/biography.component';
+import { TransferInfoComponent } from './transfer-info/transfer-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    BiographyComponent
+    BiographyComponent,
+    TransferInfoComponent
   ],
   imports: [
     BrowserModule
