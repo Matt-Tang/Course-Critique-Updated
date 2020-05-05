@@ -3101,7 +3101,7 @@
 			background-color: #000;
 			color: #bfbfbf;
 			/*background-image: url(../../images/bg.jpg);*/
-			background-image: url("images/waterloo.jpg");
+			background-image: url("\assets\images\waterloo.jpg");
 			/*https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjb5YD-su3mAhWrtVkKHbMEDxgQjRx6BAgBEAQ&url=https%3A%2F%2Fextranet.who.int%2Fagefriendlyworld%2Funiversity-of-waterloo-age-friendly-communities-tools-for-building-strong-communities%2F&psig=AOvVaw2MYqPK7o_qSdHZJQ8_ytl7&ust=1578345943627223*/
 			background-size: cover;
 			background-attachment: fixed;
@@ -3738,7 +3738,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		/*background-image: url("../../images/banner.jpg");*/
-		background-image: url("images\profile.jpg");
+		background-image: url("assets\images\profile.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
