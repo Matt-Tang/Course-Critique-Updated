@@ -8,6 +8,7 @@ import { TransferInfoComponent } from './transfer-info/transfer-info.component';
 import { UniversityInfoComponent } from './university-info/university-info.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     TransferInfoComponent,
     UniversityInfoComponent,
     ContactMeComponent,
-    CarouselComponent
+    CarouselComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule
