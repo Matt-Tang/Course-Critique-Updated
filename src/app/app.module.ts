@@ -9,6 +9,7 @@ import { UniversityInfoComponent } from './university-info/university-info.compo
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CoursesComponent } from './courses/courses.component';
+import { CourseDetailComponent } from './course-detail/course-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CoursesComponent } from './courses/courses.component';
     UniversityInfoComponent,
     ContactMeComponent,
     CarouselComponent,
-    CoursesComponent
+    CoursesComponent,
+    CourseDetailComponent
   ],
   imports: [
     BrowserModule

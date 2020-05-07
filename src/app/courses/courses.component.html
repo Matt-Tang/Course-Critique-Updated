@@ -7,6 +7,5 @@
     </ul>
 </div> 
 
-<div *ngIf="selectedCourse">
-    <h2>{{selectedCourse.courseNum | uppercase}} Details</h2>
-</div>
+<!--One way data binding, send selected course to this component-->
+<app-course-detail [course]="selectedCourse"></app-course-detail>

@@ -3,4 +3,5 @@ export interface Course {
     courseNum: string;
     courseName: string;
     term: string;
+    review: string;
   }
