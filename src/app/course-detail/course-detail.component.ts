@@ -33,4 +33,11 @@ export class CourseDetailComponent implements OnInit {
     this.location.back();
   }
 
+  goUwFlow(): void {
+    let course = this.course.courseNum.replace(/\s/g, "");
+    let base = `https://uwflow.com/course/`;
+    let uwFlowLink = base.concat(course.toString());
+    window.open(uwFlowLink, "_blank");
+  }
+
 }
