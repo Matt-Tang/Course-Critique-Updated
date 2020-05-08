@@ -1,11 +1,9 @@
 <div *ngIf="displayCourse">
-    <h2>My Courses</h2>
     <ul class="list-group">
-        <li *ngFor="let course of courses" (click)="onSelect(course)">
-            <span class="list-group-item">{{course.courseName}} <span class="badge badge-success">{{course.courseNum}}</span></span>
+        <li *ngFor="let course of courses">
+            <a routerLink="/detail/{{course.id}}">
+                <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-success">{{course.term}}</span></span>
+            </a>
         </li>
     </ul>
-</div> 
-
-<!--One way data binding, send selected course to this component-->
-<app-course-detail [course]="selectedCourse"></app-course-detail>
+</div>

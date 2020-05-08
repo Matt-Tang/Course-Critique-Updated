@@ -10,6 +10,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CourseDetailComponent } from './course-detail/course-detail.component';
     CourseDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
