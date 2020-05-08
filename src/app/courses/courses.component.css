@@ -17,22 +17,34 @@
   cursor: pointer;
 }
 
-.badge-error {
-  background-color: #b94a48;
+.badge-1A {
+  background-color: red;
 }
 
-.badge-error:hover {
-  background-color: #953b39;
+.badge-1B {
+  background-color: orange;
 }
 
-.badge-warning {
-  background-color: #f89406;
+.badge-2A {
+  background-color: tan;
 }
 
-.badge-warning:hover {
-  background-color: #c67605;
+.badge-2B {
+  background-color: green;
 }
 
-.badge-success {
-  background-color: #468847;
+.badge-3A {
+  background-color: blue;
 }
+
+.badge-PD{
+  background-color: black;
+}
+.badge-PD{
+  background-color: black;
+}
+
+
+
+
+/* */

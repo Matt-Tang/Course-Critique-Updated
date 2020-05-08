@@ -2,7 +2,27 @@
     <ul class="list-group">
         <li *ngFor="let course of courses">
             <a routerLink="/detail/{{course.id}}">
-                <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-success">{{course.term}}</span></span>
+                <div *ngIf="course.term =='1A'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-1A">{{course.term}}</span></span>
+                </div>
+                <div *ngIf="course.term =='1B'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-1B">{{course.term}}</span></span>
+                </div>
+                <div *ngIf="course.term =='2A'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-2A">{{course.term}}</span></span>
+                </div>
+                <div *ngIf="course.term =='2B'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-2B">{{course.term}}</span></span>
+                </div>
+                <div *ngIf="course.term =='3A'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-3A">{{course.term}}</span></span>
+                </div>
+                <div *ngIf="course.term =='PD'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-PD">{{course.term}}</span></span>
+                </div>
+                <div *ngIf="course.term =='NA'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span class="badge badge-PD">{{course.term}}</span></span>
+                </div>
             </a>
         </li>
     </ul>
