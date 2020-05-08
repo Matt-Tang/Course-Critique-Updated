@@ -1,5 +1,6 @@
 <div *ngIf="displayCourse">
     <ul class="list-group">
+        <!-- <app-course-search></app-course-search> -->
         <li *ngFor="let course of courses">
             <a routerLink="/detail/{{course.id}}">
                 <div *ngIf="course.term =='1A'">

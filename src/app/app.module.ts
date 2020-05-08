@@ -11,6 +11,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CourseSearchComponent } from './course-search/course-search.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './app-routing.module';
     ContactMeComponent,
     CarouselComponent,
     CoursesComponent,
-    CourseDetailComponent
+    CourseDetailComponent,
+    CourseSearchComponent
   ],
   imports: [
     BrowserModule,
