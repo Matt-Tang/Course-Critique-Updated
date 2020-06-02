@@ -12,4 +12,11 @@ export class ContactMeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit(): void{
+    var txt;
+    if (confirm("Do you want to send the message now?")) {
+      window.alert("Message was sent!");
+    }
+  }
+
 }
