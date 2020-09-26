@@ -59,12 +59,16 @@ export const COURSES: Course[] = [
     review: 'Coming Soon . . .'},
   { id: 27, courseNum: 'ENVS 200', courseName: 'Field Ecology **', term: '3A',
     review: 'Coming Soon . . .'},
+  { id: 28, courseNum: 'EARTH 121', courseName: 'Introductory Earth Sciences **', term: '3A',
+    review: 'Coming Soon . . .'},
 
-  { id: 28, courseNum: 'PD 5', courseName: 'Project Management', term: 'PD',
+  { id: 29, courseNum: 'PD 5', courseName: 'Project Management', term: 'PD',
     review: 'This was an easy PD course as well. It focuses on project management and planning. Like PD 5, there was weekly assignments usually 2-3 open questions based on the assigned reading. This PD was interesting because you get to learn about how to plan projects effectively and how good decision making is vital. You learn about how stakeholders impact projects, communication styles, and how to plan for the unexpected. Overall, there was 6-7 assignments and you only need a 50% to pass the PD course. I highly recommend that you take this course as there are not any essays or big projects that you need to work on.'},
-  { id: 29, courseNum: 'PD 8', courseName: 'Intercultural Skills', term: 'PD',
-    review: 'This is one of the easiest PD courses out there. It focuses on intercultural skills and how different cultures have different workplace interactions and work styles. This course has weekly assignments which are usually 2-3 open ended questions based on the assigned reading. You only need to get 50% in total and you do not have to pass the last assignment to pass the course. Personally, I was able to finish these assignments in half an hour or less every week, so it was not too much of a time sink. This was also interesting to read about because you really get to understand how different parts of the world have different work styles that are drastically different than the ones we accustomed to.'},
-  { id: 30, courseNum: 'COMP 206', courseName: 'Introduction to Computer Programming (Athabasca University)', term: '1B',
+  { id: 30, courseNum: 'PD 6', courseName: 'Problem Solving', term: 'PD',
+    review: 'Coming Soon . . .'},
+  { id: 31, courseNum: 'PD 8', courseName: 'Intercultural Skills', term: 'PD',
+  review: 'This is one of the easiest PD courses out there. It focuses on intercultural skills and how different cultures have different workplace interactions and work styles. This course has weekly assignments which are usually 2-3 open ended questions based on the assigned reading. You only need to get 50% in total and you do not have to pass the last assignment to pass the course. Personally, I was able to finish these assignments in half an hour or less every week, so it was not too much of a time sink. This was also interesting to read about because you really get to understand how different parts of the world have different work styles that are drastically different than the ones we accustomed to.'},
+  { id: 32, courseNum: 'COMP 206', courseName: 'Introduction to Computer Programming (Athabasca University)', term: '1B',
     review: 'I took this course at Athabasca University because I was missing the ECE 150 credit when I transferred from Chemical Engineering to Computer Engineering. This course was online, and it was an introductory to C++. There were 3 assignments, and 1 Final exam. The final exam was just the assignment questions with small modifications. This course was very easy and the online modules that came with the course was detailed and descriptive. It taught a lot about the fundamentals of C and how C++ evolved from it. In my opinion, I do not think that COMP 206 is a course equivalent to ECE 150 but apparently Waterloo thinks so. The assignments were trivial if you have some basic programming experience. For example, one the assignment questions were opening a file and writing some content into it.'},
     
 ];
