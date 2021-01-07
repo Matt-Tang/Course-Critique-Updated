@@ -4,4 +4,4 @@ export interface Course {
     courseName: string;
     term: string;
     review: string;
-  }
+}

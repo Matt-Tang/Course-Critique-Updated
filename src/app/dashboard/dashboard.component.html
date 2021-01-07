@@ -1,0 +1,9 @@
+<div class="grid grid-pad">
+  <a *ngFor="let term of terms" class="col-1-4">
+    <div class="module">
+      <a routerLink="/courses/{{term.level}}">
+        <h4><span class="white">{{term.level}}</span><br><span class="peach">{{term.termDate}}</span></h4>
+      </a>
+    </div>
+  </a>
+</div>

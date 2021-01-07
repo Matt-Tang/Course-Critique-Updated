@@ -15,8 +15,13 @@ export class CourseService {
   }
 
   getCourse(id: number): Observable<Course> {
-    // TODO: send the message _after_ fetching the hero
+    // TODO: send the message _after_ fetching the course
     return of(COURSES.find(course => course.id === id));
+  }
+
+  getCoursesBasedOnLevel(level: string): Observable<Course[]> {
+    // TODO: send the message _after_ fetching the course
+    return of(COURSES.filter(course => course.term === level));
   }
 
   // /* GET courses whose name contains search term */

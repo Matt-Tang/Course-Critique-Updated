@@ -12,6 +12,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CourseSearchComponent } from './course-search/course-search.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CourseSearchComponent } from './course-search/course-search.component';
     CarouselComponent,
     CoursesComponent,
     CourseDetailComponent,
-    CourseSearchComponent
+    CourseSearchComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
