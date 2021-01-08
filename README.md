@@ -6,5 +6,5 @@ http://matthew-tang-ece-course-critique.s3-website.us-east-2.amazonaws.com/
 
 ![image](https://user-images.githubusercontent.com/38430052/81444840-d5905b80-9145-11ea-8d71-1084f8fda4c1.png)
 
-# Sample course critque:
+# Sample course critique:
 ![image](https://user-images.githubusercontent.com/38430052/104048636-8fe2d180-51b1-11eb-9134-7649022d0595.png)
