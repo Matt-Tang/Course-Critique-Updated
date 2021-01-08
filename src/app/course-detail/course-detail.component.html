@@ -1,5 +1,51 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div *ngIf="course">
-    <h2>{{course.courseNum | uppercase}} - {{course.courseName | uppercase}}</h2>
+    <h2>{{course.courseNum | uppercase}} - {{course.courseName | uppercase}} <br>
+        <!-- <span class="heading">Rating</span> -->
+        <div *ngIf="course.rating === 0">
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div *ngIf="course.rating === 1">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div *ngIf="course.rating === 2">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div *ngIf="course.rating === 3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div *ngIf="course.rating === 4">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div *ngIf="course.rating === 5">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+    </h2>
     <h3><a href="{{course.professorProfile}}">Professor: {{course.professor}}</a></h3>
     <h1><span class="font-italic">{{course.review}}</span></h1>
     <button (click)="goBack()">Go Back</button>

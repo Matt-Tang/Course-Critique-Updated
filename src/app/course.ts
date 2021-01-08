@@ -6,4 +6,5 @@ export interface Course {
     professor: string;
     professorProfile: string;
     review: string;
+    rating: number;
 }
