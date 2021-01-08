@@ -1,5 +1,6 @@
 <div *ngIf="course">
     <h2>{{course.courseNum | uppercase}} - {{course.courseName | uppercase}}</h2>
+    <h3><a href="{{course.professorProfile}}">Professor: {{course.professor}}</a></h3>
     <h1><span class="font-italic">{{course.review}}</span></h1>
     <button (click)="goBack()">Go Back</button>
     <button style="margin:7px;" (click)="goUwFlow()">UW Flow</button>

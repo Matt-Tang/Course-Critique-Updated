@@ -3,5 +3,7 @@ export interface Course {
     courseNum: string;
     courseName: string;
     term: string;
+    professor: string;
+    professorProfile: string;
     review: string;
 }
