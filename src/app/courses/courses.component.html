@@ -27,6 +27,10 @@
                     <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span
                             class="badge badge-3B">{{course.term}}</span></span>
                 </div>
+                <div *ngIf="course.term =='4A'">
+                    <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span
+                            class="badge badge-4A">{{course.term}}</span></span>
+                </div>
                 <div *ngIf="course.term =='PD'">
                     <span class="list-group-item">{{course.courseNum}}: {{course.courseName}} <span
                             class="badge badge-PD">{{course.term}}</span></span>
